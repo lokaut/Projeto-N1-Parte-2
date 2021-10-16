@@ -1,7 +1,7 @@
 ## Sistema para gerenciar o processo de Inscrições
 
 
-**Uma instituição de ensino superior** precisa ** de um sistema para gerenciar o processo de inscrições em um evento técnico.** O sistema deve permitir a implementação das seguintes histórias de usuário:
+**Uma instituição de ensino superior** precisa **de um sistema para gerenciar o processo de inscrições em um evento técnico.** O sistema deve permitir a implementação das seguintes histórias de usuário:
 
 
 ------------
@@ -25,7 +25,7 @@ Neste projeto a equipe devem criar uma solução que seja capaz de resolver o pr
 
 - Uma ou mais estruturas de dados do tipo **lista**, para armazenar os dados dos inscritos;
 e/ou
-- Uma ou mais estruturas de dados do tipo** dicionário**.
+- Uma ou mais estruturas de dados do tipo **dicionário**.
 - Utilizar funções, buscando respeitar a separação de controle/lógica de visão/interação com o usuário.
 - Utilizar funções de string e de lista.
 - Utilizar ForEach
