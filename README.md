@@ -19,7 +19,8 @@
 
 
 
-###Complementar
+### Complementar
+
 Neste projeto a equipe devem criar uma solução que seja capaz de resolver o problema destacado na seção anterior. Para isso, sera preciso criar:
 
 - Uma ou mais estruturas de dados do tipo **lista**, para armazenar os dados dos inscritos;
