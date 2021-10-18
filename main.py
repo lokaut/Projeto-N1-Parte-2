@@ -6,6 +6,8 @@ from functions.findUser import findUser
 from functions.listOrderUsers import listOrderUsers
 
 import inquirer
+import pandas as pd
+
 
 options = [
     'Adicionar usuário',
@@ -38,6 +40,9 @@ def main():
 
 
     while True:
+        users = pd.read_csv('data/users.csv')
+
+        users = users.loc[:, ~users.columns.str.match('Unnamed')]
 
         answers = inquirer.prompt(questions)
 
@@ -45,7 +50,8 @@ def main():
 
 
         if index > 0 and index <= 6:
-            selectFuntions[str(index)]()
+            selectFuntions[str(index)](users)
+            print("\n\n")
         elif index == 7:
             print('Certo, vou encerrar a sua conversa! Até logo!')
             break
