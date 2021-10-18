@@ -6,12 +6,14 @@ Para funcionamento do programa, é necessário instalar **pandas** e **inquirer*
 ``
 pip install pandas
 ``
+
 ``
 pip install inquirer
 ``
 
 
 Duvídas como funciona? [Clique aqui para mais detalhes do Panda](https://pypi.org/project/pandas/ " a documentação do Panda")
+
 Duvídas como funciona? [Clique aqui para mais detalhes do Inquirer](https://pypi.org/project/inquirer/ " a documentação do Inquirer")
 
 Outra maneira de executar o projeto é executando o main.py pelo PowerShell.
