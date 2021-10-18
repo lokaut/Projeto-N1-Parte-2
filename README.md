@@ -1,5 +1,18 @@
 ## Sistema para gerenciar o processo de Inscrições
 
+Para funcionamento do programa, é necessário instalar **pandas**
+``
+pip install pandas
+``
+Duvídas como funciona? [Clique aqui para mais detalhes do Panda](https://pypi.org/project/pandas/ " a documentação do Panda")
+
+------------
+
+
+
+------------
+
+
 
 **Uma instituição de ensino superior** precisa **de um sistema para gerenciar o processo de inscrições em um evento técnico.** O sistema deve permitir a implementação das seguintes histórias de usuário:
 
@@ -31,6 +44,7 @@ e/ou
 - Utilizar ForEach
 - Implementar os menus e mensagens necessárias para interagir com o usuário.
 - Atender as histórias de usuário.
+
 
 
 

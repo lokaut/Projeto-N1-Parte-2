@@ -24,15 +24,20 @@ selectFuntions = {
     "6": updateUser,
 }
 
-while True:
-    for x in listOptions:
-        print(x)
+def main():
+    while True:
+        for x in listOptions:
+            print(x)
 
-    selectOption = int(input("\nSobre qual dos assuntos deseja tratar? "))
+        selectOption = int(input("\nSobre qual dos assuntos deseja tratar? "))
 
-    if selectOption > 0 and selectOption <= 6:
-        selectFuntions[str(selectOption)]
-    elif selectOption == 7:
-        break
-    else:
-        print("\nPor favor, digite um valor válido da lista \n")
+        if selectOption > 0 and selectOption <= 6:
+            selectFuntions[str(selectOption)]
+        elif selectOption == 7:
+            break
+        else:
+            print("\nPor favor, digite um valor válido da lista \n")
+
+
+if(__name__ =="__main__"):
+    main()
