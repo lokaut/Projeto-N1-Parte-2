@@ -1,9 +1,11 @@
 ## Sistema para gerenciar o processo de Inscrições
 
 Para funcionamento do programa, é necessário instalar **pandas**
+
 ``
 pip install pandas
 ``
+
 Duvídas como funciona? [Clique aqui para mais detalhes do Panda](https://pypi.org/project/pandas/ " a documentação do Panda")
 
 ------------
